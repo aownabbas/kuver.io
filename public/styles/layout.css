@@ -1,0 +1,738 @@
+/* ------------------------------------------- General CSS -------------------------------------------*/
+/* ------------------------------ Body, Font-Family, Font-Size, Font-color CSS ---------------------------*/
+
+/* body,
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'regular';
+    color: var(--lightGrey);
+  } */
+
+body,
+html {
+  font-family: 'regular';
+}
+
+/* ------------------------------ Main Color CSS ---------------------------*/
+
+:root {
+  --mainColor: #777;
+  --whiteColor: #ffffff !important;
+  --greyView: #aeaeae;
+  --activeButtonColor: #4e6afe;
+  --lightGrey: #40465e;
+  font-family: 'regular';
+}
+
+.white {
+  color: var(--whiteColor) !important;
+}
+
+/* ------------------------------ Font-Family CSS ---------------------------*/
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../assets/fontfamily/Inter-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url('../assets/fontfamily/Inter-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-Light';
+  src: url('../assets/fontfamily/Inter-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('../assets/fontfamily/Inter-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('../assets/fontfamily/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('../assets/fontfamily/Inter-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-Thin';
+  src: url('../assets/fontfamily/Inter-Thin.ttf');
+}
+
+/* ---------------------------------------- Fonts CSS --------------------------------------- */
+/* ------------------------------ Font-Family, Font-Size CSS ---------------------------*/
+.white {
+  color: var(--whiteColor) !important;
+}
+
+.grey-view {
+  color: var(--greyView) !important;
+}
+
+/* .heavy {
+    font-size: 16px !important;
+    font-family: 'Inter-heavy' !important;
+  } */
+.extrabold-large {
+  font-size: 34px !important;
+  font-family: 'Inter-ExtraBold' !important;
+}
+
+.extrabold {
+  font-size: 16px !important;
+  font-family: 'Inter-Bold' !important;
+}
+
+.bold-large {
+  font-size: 34px !important;
+  font-family: 'Inter-Bold' !important;
+}
+
+.bold {
+  font-size: 20px !important;
+  font-family: 'Inter-Bold' !important;
+}
+
+.light-bold {
+  font-size: 16px !important;
+  font-family: 'Inter-Bold' !important;
+}
+
+.small-bold {
+  font-size: 14px !important;
+  font-family: 'Inter-Bold' !important;
+}
+
+.semibold-large {
+  font-size: 20px !important;
+  font-family: 'Inter-SemiBold' !important;
+}
+
+.semibold-xlarge {
+  font-size: 22px !important;
+  font-family: 'Inter-SemiBold' !important;
+}
+
+.semibold-mid {
+  font-size: 16px !important;
+  font-family: 'Inter-SemiBold' !important;
+}
+
+.semibold {
+  font-size: 16px !important;
+  font-family: 'Inter-SemiBold' !important;
+}
+
+.semibold-small {
+  font-size: 14px !important;
+  font-family: 'Inter-SemiBold' !important;
+}
+
+.semibold-mid-small {
+  font-size: 12px !important;
+  font-family: 'Inter-SemiBold' !important;
+}
+
+.semibold-xsmall {
+  font-size: 10px !important;
+  font-family: 'Inter-SemiBold' !important;
+}
+
+.medium-extralarge {
+  font-size: 26px;
+  font-family: 'Inter-Medium' !important;
+}
+
+.regular-large {
+  font-size: 22px !important;
+  font-family: 'Inter-Regular' !important;
+}
+
+.regular {
+  font-size: 20px !important;
+  font-family: 'Inter-Regular' !important;
+}
+
+.regular-mid {
+  font-size: 12px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  font-family: 'Inter-Regular' !important;
+}
+
+/* .regular-miid{
+      font-size: 12px !important;
+      padding-top: 4px !important;
+      padding-bottom: 4px !important;
+      margin-top: 5px;
+  } */
+.regular-small {
+  font-size: 14px !important;
+  font-family: 'Inter-Regular' !important;
+}
+
+.regular-xsmall {
+  font-size: 12px !important;
+  font-family: 'Inter-Regular' !important;
+}
+
+.regular-xxsmall {
+  font-size: 10px !important;
+  font-family: 'Inter-Regular' !important;
+}
+
+.medium-xlarge {
+  font-size: 20px;
+  font-family: 'Inter-Medium' !important;
+}
+
+.medium-mid-large {
+  font-size: 16px;
+  font-family: 'Inter-Medium' !important;
+}
+
+.medium-large {
+  font-size: 14px;
+  font-family: 'Inter-Medium' !important;
+}
+
+.medium {
+  font-size: 12px;
+  font-family: 'Inter-Medium' !important;
+}
+
+.medium-small {
+  font-size: 10px;
+  font-family: 'Inter-Medium' !important;
+}
+
+.light {
+  font-size: 18px !important;
+  font-family: 'Inter-Light' !important;
+}
+
+.light-medium {
+  font-size: 14px !important;
+  font-family: 'Inter-Light' !important;
+}
+
+.light-small {
+  font-size: 12px !important;
+  font-family: 'Inter-Light' !important;
+}
+
+.light-xsmall {
+  font-size: 12px !important;
+  font-family: 'Inter-Light' !important;
+}
+
+.ultralight {
+  font-size: 12px !important;
+  font-family: 'Inter-UltraLight' !important;
+  opacity: 80% !important;
+}
+
+.thin {
+  font-size: 18px !important;
+  font-family: 'Inter-Thin' !important;
+}
+
+#wrapper {
+  height: 100%;
+  overflow: hidden;
+  /* height:768px; */
+}
+
+#wrapper.row {
+  /* margin-bottom: 1rem; */
+  --bs-gutter-x: 1.5 rem;
+}
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+/* .apexcharts-yaxis-texts-g{
+    display: none !important;
+  } */
+.dropdown-toggle {
+  padding: 0px !important;
+}
+
+.dropdown-item {
+
+  background-color: #252b3b !important;
+  color: white !important;
+}
+
+.dropdown-menu.show {
+  background-color: #252b3b !important;
+  text-align: start;
+}
+
+.css-h4y409-MuiList-root {
+  background-color: #252b3b !important;
+}
+
+.dropdown-item:hover {
+  background-color: #474b54 !important;
+  /* color: white !important; */
+}
+
+.bg-main {
+  /* background-color: #1d222e; */
+  background-color: #252b3b;
+  border-radius: 3px;
+}
+
+.bg-search {
+  background-color: #1D222E !important;
+  outline: none;
+
+}
+
+.bg-whole {
+  background-color: #1d222e;
+}
+
+.bg-img {
+  /* background-image: url('/assets/images/noData.avif'); 
+    background-color: #CCCCCC; 
+    height: 500px; 
+    min-width: 600px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+  background-color: #252b3b;
+  border-radius: 3px;
+}
+
+.lab {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #494949;
+}
+
+.active {
+  background-color: #444;
+}
+
+.apexcharts-legend,
+.apexcharts-align-left,
+.apx-legend-position-bottom {
+  display: none !important;
+}
+
+/* table nested styles */
+/* .MuiTableCell-root {
+  border-bottom: none !important;
+} */
+.MuiTableCell-root{
+  border-bottom: 0.1px solid #373753 !important;
+}
+.css-1ygcj2i-MuiTableCell-root {
+  padding: 0px !important;
+}
+
+/* .css-1ex1afd-MuiTableCell-root{
+    padding: 0px !important;
+  } */
+.top-border {
+  border-top: 1px solid var(--lightGrey) !important;
+}
+
+.gaugeStyle {
+  height: 235px !important;
+}
+
+.bg-button {
+  background-color: #191d29 !important;
+    border: none !important;
+}
+
+.float-start {
+  float: right !important;
+}
+
+.stackbtn {
+  padding: 0.01rem 0.2rem !important;
+}
+
+.input-border {
+  min-width: 384px;
+  height: 56px;
+  border: 1px solid #494949;
+  border-radius: 90px;
+  outline: 0;
+  /* border-width: 0 0 2px; */
+  border-color: grey
+}
+
+.input-border input {
+  border: none;
+  outline: none;
+  /* width: 50px !important; */
+  height: 40px;
+
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #494949;
+  /* opacity: 0.4; */
+}
+
+.amount {
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 24px;
+  color: #494949 !important;
+  letter-spacing: 1.5px !important;
+  background-color: transparent !important;
+
+}
+
+.mon {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 24px;
+  color: #494949 !important;
+}
+
+.amount::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #74788d;
+  letter-spacing: 1.5px !important;
+  background-color: transparent !important;
+  opacity: 0.6;
+
+}
+
+.amountt {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px !important;
+  color: #494949 !important;
+  letter-spacing: 1.5px !important;
+  background-color: transparent !important;
+}
+
+.amountt::placeholder {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #74788d;
+  letter-spacing: 1.5px !important;
+  background-color: transparent !important;
+  opacity: 0.6;
+
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  background-color: transparent !important;
+}
+.spine::-webkit-outer-spin-button,
+.spine::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield;
+  background-color: transparent !important;
+}
+
+.copy {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #494949;
+  letter-spacing: 1.5px !important;
+}
+
+.copy::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 14px; */
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #494949;
+
+  opacity: 0.8;
+}
+
+.usd {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #B4B4B4;
+}
+
+.input-border:focus {
+  border-color: green;
+  /* outline: 1px dotted #000 */
+}
+
+.centered-element {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
+.disable-scrollbars::-webkit-scrollbar {
+  background: transparent;
+  /* Chrome/Safari/Webkit */
+  width: 0px;
+}
+
+.disable-scrollbars {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+}
+
+.css-1eoe787-MuiSlider-markLabel {
+  color: #777;
+}
+
+.css-yafthl-MuiSlider-markLabel {
+  color: #777
+}
+
+.content {
+  /* position: absolute; */
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.circleLoaderBackground {
+  position: absolute !important;
+  z-index: 1 !important;
+  right: 0 !important;
+
+  svg {
+    color: pink !important;
+
+    circle {
+      stroke-dashoffset: 0px !important;
+    }
+  }
+}
+
+.copy-box {
+  min-width: 384px;
+  min-height: 40px;
+  border: 1px solid #494949;
+  border-radius: 90px;
+  outline: 0;
+  /* border-width: 0 0 2px; */
+  border-color: grey
+}
+
+.form-select-lg {
+  border: none !important;
+}
+
+.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:before {
+  border: none !important;
+}
+
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #494949 !important;
+  font-family: 'Inter-Regular' !;
+
+}
+
+.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after {
+  border-bottom: none !important;
+}
+
+.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+  background: transparent !important;
+}
+
+.css-h4y409-MuiList-root {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.css-1ontqvh {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  background-color: black;
+}
+
+.css-o3ukdw::after {
+  border-bottom: none !important;
+}
+
+.css-o3ukdw::before {
+  border-bottom: none !important;
+}
+
+.css-oapmtd {
+  border-radius: 15px !important;
+}
+
+.css-1cccqvr.css-1cccqvr.css-1cccqvr {
+  background: transparent !important;
+
+}
+
+.heding {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.adresss {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #494949;
+}
+
+.css-1bigob2 {
+  padding: 0px !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.apexcharts-xaxis-labels {
+  stroke: none !important;
+}
+.centertxt {
+  /* margin: 0; */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.css-6hp17o-MuiList-root-MuiMenu-list{
+  background-color: #252b3b !important;
+}
+.css-oapmtd{
+  background-color: #252b3b !important;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+     outline: none;
+}
+/* for stackbond form select border remove */
+.css-1ab2rlz-MuiInputBase-root-MuiInput-root-MuiSelect-root:before{
+  border-bottom: none !important;
+}
+.css-1ab2rlz-MuiInputBase-root-MuiInput-root-MuiSelect-root.Mui-focused:after{
+  border-bottom: none !important;
+}
+.d-flex{
+  display: flex !important;
+}
+.css-1h4i5l4-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+  color: white !important;
+  border: none !important;
+  background: #5664d2 !important;
+  border-color: #5664d2 !important;
+}
+.css-1uzo7y5.Mui-selected{
+  color: white !important;
+  border: none !important;
+  background: #5664d2 !important;
+  border-color: #5664d2 !important;
+}
+.css-1h4i5l4-MuiButtonBase-root-MuiPaginationItem-root{
+  color: #74788d !important;
+  border: none !important;
+}
+.css-1uzo7y5{
+  color: #74788d !important;
+  border: none !important;
+}
+
+.css-1h4i5l4-MuiButtonBase-root-MuiPaginationItem-root:hover{
+  color:#5664d2 !important ;
+}
+.custom-selected{
+  background: #2B3244 url('/assets/images/download.svg') no-repeat right 0.2rem center/8px 10px !important;
+  appearance: none;
+  border: 1px solid #31394E !important;
+}
+.whitePlaceHolder::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon{
+  /* color: rgba(196, 189, 189, 0.6) !important; */
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.css-dx096b.Mui-active .MuiTableSortLabel-icon{
+  /* color: rgba(196, 189, 189, 0.6) !important; */
+  color: #ffffff !important;
+}

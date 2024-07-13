@@ -1,0 +1,27 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif !important;
+  background-color: #1d222e !important;
+  /* font-size: 40px; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
